@@ -5,13 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body style="margin: 0px; height: 100%; background-color: rgb(14, 14, 14);">
 
     <div class="main-container">
         <div class="screen">
-            <div class="left-container"></div>
-            <div class="right-container"></div>
+            <div class="left-container">
+                <div class="logo">
+                    <img class="logo-image"  src="images/odin-lined.png">
+                    <p class="logo-text">ODIN</p>
+                </div>
+                <div class="left-footer">Photo by <a href="https://unsplash.com/es/@mauromf">Mauro Merino</a> on <a href="https://unsplash.com">Unsplash</a>
+                </div>
+            </div>
+            <div class="right-container">
+                <div class="right-section sec1">
+                    <h4>This is not a real online service! You know you need something like this in your life to help you realize tour deepest dreams. Sign up now to get started.</h4>
+                    <h4>You know you want to.</h4>
+                </div>
+                <div class="right-section sec2">
+                    <h4>Let's do this!</h4>
+                    <form id="login-form">
+                    <div class="input-fields">
+                        <div class="slot">
+                            <label for="first-name">FIRST NAME</label>
+                            <input id="first-name" type="text">
+                        </div>
+                        <div class="slot">
+                            <label for="second-name">SECOND NAME</label>
+                            <input id="second-name" type="text">
+                        </div>
+                        <div class="slot">
+                            <label for="email">EMAIL</label>
+                            <input id="email" type="text">
+                        </div>
+                        <div class="slot">
+                            <label for="phone-num">PHONE NUMBER</label>
+                            <input id="phone-num" type="text">
+                        </div>
+                        <div class="slot">
+                            <label for="password">PASSWORD</label>
+                            <input id="password" type="text" required>
+                        </div>
+                        <div class="slot">
+                            <label for="password-confirm">CONFIRM PASSWORD</label>
+                            <input id="password-confirm" type="text" required>
+                        </div>
+
+                    </div>
+                    </form>
+                </div>
+                <div class="right-section sec3">
+                    <div class="button-container">
+                        <button type="submit" form="login-form">Create Account</button>
+                        <p>Already have an account? <span class="login-link">Log In</span></p>       
+                    </div>
+
+                </div>
+            </div>
         </div>
         
 
