@@ -1,0 +1,21 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.screen{
+    width: 60%;
+    height: 900px;
+    background-color: white;
+    margin-top: 150px;
+}
+
+.left-container{
+    width: 500px;
+    height: 900px;
+    background-image: url("images/illetes.avif");
+    background-position: 75% 20%;
+}
+
+/* Foto by Mauro merino, unsplash.com: https://unsplash.com/es/fotos/una-gran-masa-de-agua-con-barcos-en-ella-XLf64qbZp9U*/
